@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/test1" version="1.0.0" viewmodes="maximized">
+    <access origin="http://arcgisonline.com" subdomains="true"/>
+    <access origin="http://arcgis.com" subdomains="true"/>
+    <access origin="https://arcgisonline.com" subdomains="true"/>
+    <access origin="https://arcgis.com" subdomains="true"/>
+    <access origin="https://api-m2x.att.com" subdomains="false"/>
+    <tizen:application id="sRYNGhDREj.test1" package="sRYNGhDREj" required_version="2.2"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/location.gps"/>
+    <feature name="http://tizen.org/feature/screen.size.normal.360.480"/>
+    <feature name="http://tizen.org/feature/network.internet"/>
+    <icon src="icon.png"/>
+    <name>test1</name>
+    <tizen:privilege name="http://tizen.org/privilege/location"/>
+    <tizen:privilege name="http://tizen.org/privilege/download"/>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+</widget>

@@ -1,0 +1,35 @@
+body {
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 480px;
+}
+
+#map {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+#map-directions {
+	display: none;
+}
+
+.esriPopup .sizer, .esriPopup .pointer.bottomLeft {
+	display: none;
+}
+.esriPopup .outerPointer.left {
+	left: -8px;
+}
+.esriPopup .sizer.content {
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 44px;
+	width: 360px;
+	font-size: 1.5em;
+	font-family: standardFontFamily;
+}
