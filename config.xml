@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/helloworld02" version="1.0.0" viewmodes="maximized">
+    <access origin="http://arcgisonline.com" subdomains="true"/>
+    <access origin="http://arcgis.com" subdomains="true"/>
+    <access origin="https://arcgisonline.com" subdomains="true"/>
+    <access origin="https://arcgis.com" subdomains="true"/>
+    <tizen:application id="7knC33eShT.helloworld02" package="7knC33eShT" required_version="2.2"/>
+    <content src="index.html"/>
+
+
+    <feature name="http://developer.samsung.com/tizen/feature/heart_rate_monitor"/>
+    <feature name="http://developer.samsung.com/tizen/feature/irled"/>
+    <feature name="http://developer.samsung.com/tizen/feature/network.accessory_protocol"/>
+    <feature name="http://developer.samsung.com/tizen/feature/pedometer"/>
+    <feature name="http://developer.samsung.com/tizen/feature/samsung_extension"/>
+    <feature name="http://developer.samsung.com/tizen/feature/sensor.ultraviolet"/>
+    <feature name="http://developer.samsung.com/tizen/feature/wrist_up"/>
+    <feature name="http://tizen.org/feature/camera"/>
+    <feature name="http://tizen.org/feature/location.gps"/>
+    <feature name="http://tizen.org/feature/microphone"/>
+    <feature name="http://tizen.org/feature/network.bluetooth"/>
+    <feature name="http://tizen.org/feature/network.internet"/>
+    <feature name="http://tizen.org/feature/network.nfc"/>
+    <feature name="http://tizen.org/feature/network.push"/>
+    <feature name="http://tizen.org/feature/network.secure_element"/>
+    <feature name="http://tizen.org/feature/network.telephony"/>
+    <feature name="http://tizen.org/feature/network.telephony.mms"/>
+    <feature name="http://tizen.org/feature/network.wifi"/>
+    <feature name="http://tizen.org/feature/screen.size.normal.360.480"/>
+    <feature name="http://tizen.org/feature/sensor.accelerometer"/>
+    <feature name="http://tizen.org/feature/sensor.barometer"/>
+    <feature name="http://tizen.org/feature/sensor.gyroscope"/>
+    <feature name="http://tizen.org/feature/sensor.magnetometer"/>
+    <feature name="http://tizen.org/feature/sensor.photometer"/>
+    <feature name="http://tizen.org/feature/sensor.proximity"/>
+    <feature name="http://tizen.org/feature/speech.recognition"/>
+    <feature name="http://tizen.org/feature/speech.synthesis"/>
+    <icon src="icon.png"/>
+    <name>helloworld02</name>
+    <tizen:privilege name="http://tizen.org/privilege/location"/>
+    <tizen:privilege name="http://tizen.org/privilege/download"/>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+</widget>
